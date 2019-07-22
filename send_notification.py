@@ -2,7 +2,7 @@ import sys
 import requests
 
 def notify(message):
-    with open('token', 'r') as file:
+    with open('/Users/yuhongc/Projects/ifttt/token', 'r') as file:
         token = file.readline()[:-1]
     report = {}
     report['value1'] = message
